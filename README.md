@@ -40,7 +40,7 @@ This code creates an instance of VideoEncoder and VideoDecoder. The VideoEncoder
 
 ## API Reference
 ### VideoEncoder
-constructor(mimeType, videoWidth, videoHeight)
+#### constructor(mimeType, videoWidth, videoHeight)
 Creates a new instance of the VideoEncoder class.
 
 - mimeType: The MIME type to use for the encoded video data. For example, 'video/webm'.
@@ -50,18 +50,18 @@ Creates a new instance of the VideoEncoder class.
 
 - stop(): Stops the video encoder. The encoder will generate a Blob containing the entire recorded video and pass it to the onStop callback.
 
--onDataAvailable(videoChunk)
+- onDataAvailable(videoChunk)
 A callback that will be called each time a new chunk of encoded video data is available. The videoChunk parameter will be a Blob containing the encoded video data.
 
 - onStop(videoBlob)
 A callback that will be called when the video encoder is stopped. The videoBlob parameter will be a Blob containing the entire recorded video.
 
 ### VideoDecoder
-constructor(videoElement)
+#### constructor(videoElement)
 Creates a new instance of the VideoDecoder class.
 
-videoElement: The HTML <video> element that the decoded video data will be rendered to.
+- videoElement: The HTML <video> element that the decoded video data will be rendered to.
 async decode(videoBlob)
 Decodes a Blob containing encoded video data and returns a VideoBuffer.
 
-videoBlob: A Blob containing the encoded video
+- videoBlob: A Blob containing the encoded video
