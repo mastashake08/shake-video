@@ -1,0 +1,11 @@
+{
+  "name": "shake-video",
+  "version": "0.0.1",
+  "description": "A video encoder and decoder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jyrone Parker",
+  "license": "MIT"
+}
