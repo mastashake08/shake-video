@@ -1,4 +1,4 @@
-class VideoEncoder {
+export class VideoEncoder {
   constructor(mimeType, videoWidth, videoHeight) {
     this.mimeType = mimeType;
     this.videoWidth = videoWidth;

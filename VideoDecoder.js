@@ -1,4 +1,4 @@
-class VideoDecoder {
+export class VideoDecoder {
   constructor(videoElement) {
     this.videoElement = videoElement;
     this.videoUrl = null;
