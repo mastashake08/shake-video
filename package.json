@@ -1,6 +1,6 @@
 {
-  "name": "@mastashake08/shake-video",
-  "version": "1.0.0",
+  "name": "shake-video",
+  "version": "1.0.1",
   "description": "A video encoder and decoder",
   "main": "index.js",
   "repository": {

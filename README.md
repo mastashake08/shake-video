@@ -3,16 +3,16 @@ This is a simple JavaScript package that provides a VideoEncoder and VideoDecode
 
 ## Usage
 ### Installation
-You can install the @mastashake08/shake-video package using npm:
+You can install the shake-video package using npm:
 
 ```
-npm install @mastashake08/shake-video
+npm install shake-video
 ```
 Using the VideoEncoder and VideoDecoder classes
 Here's an example of how you might use the VideoEncoder and VideoDecoder classes:
 
 ```
-import { VideoEncoder, VideoDecoder } from '@mastashake08/shake-video';
+import { VideoEncoder, VideoDecoder } from 'shake-video';
 
 const mimeType = 'video/webm';
 const videoWidth = 640;
