@@ -9,8 +9,8 @@ export class VideoEncoder {
     this.onStop = null;
   }
 
-  start() {
-    const stream = navigator.mediaDevices.getUserMedia({
+  async start() {
+    const stream = await navigator.mediaDevices.getUserMedia({
       video: { width: this.videoWidth, height: this.videoHeight },
     });
     this.mediaRecorder = new MediaRecorder(stream, { mimeType: this.mimeType });
